@@ -1,7 +1,12 @@
 import { render, screen, fireEvent } from "@testing-library/react";
+// import { logRoles } from "@testing-library/react";
 import App from "./App";
 
-test("button has correct initial color", () => {
+test("button has correct initial color, and updates when clicked", () => {
+  // DOM 내에 어떤 role 들이 있는지 확인하는 구문
+  // const { container } = render(<App />);
+  // logRoles(container);
+
   render(<App />);
 
   // find an element with a role of button and text of 'Change to blue'
