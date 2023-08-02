@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import React, { useState } from 'react';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 export default function SummaryForm() {
   const [isChecked, setIsChecked] = useState(false);
@@ -8,7 +8,7 @@ export default function SummaryForm() {
   const checkboxLabel = (
     <span>
       I agree to
-      <span style={{ color: "blue" }}> Terms and Conditions</span>
+      <span style={{ color: 'blue' }}> Terms and Conditions</span>
     </span>
   );
 
